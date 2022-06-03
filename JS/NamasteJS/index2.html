@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>JS Bin</title>
+  </head>
+  <body>
+    <button id="store-data">Store data</button>
+    <button id="free-data">Free data</button>
+
+    <script>
+      const storeDataButton = document.getElementById("store-data");
+      const freeDataButton = document.getElementById("free-data");
+
+      let data = [];
+      let interval = null;
+
+      function randomString() {
+        return (
+          Math.random()
+            .toString(36)
+            .substring(2, 15) +
+          Math.random()
+            .toString(36)
+            .substring(2, 15)
+        );
+      }
+
+      storeDataButton.addEventListener("click", () => {
+        interval = setInterval(() => {
+          for (let i = 0; i < 1000; i++) {
+            data.push(randomString());
+          }
+        }, 500);
+      });
+
+      freeDataButton.addEventListener("click", () => {
+        data = [];
+        clearInterval(interval);
+      });
+    </script>
+  </body>
+</html>

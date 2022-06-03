@@ -1,0 +1,1 @@
+// what is strict mode?

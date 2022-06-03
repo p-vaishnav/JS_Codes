@@ -1,0 +1,4 @@
+
+for(;;) {
+    // makes page unresponsive
+}
