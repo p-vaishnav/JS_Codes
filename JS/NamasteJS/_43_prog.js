@@ -19,7 +19,7 @@ const promise2 = new Promise((resolve, reject) => {
 promise2.then((value) => {
     console.log(value);
 }, (err) => {
-    console.log(err);
+    console.error(err);
 }).finally(() => {
     console.log('Fans waited for next release');
 });
@@ -31,7 +31,7 @@ const promise3 = new Promise((resolve, reject) => {
 promise3.then((value) => {
     console.log(value);
 }).catch((err) => {
-    console.log(err);
+    console.error(err);
 }).finally(() => {
     console.log('Fans waited for next release');
 });

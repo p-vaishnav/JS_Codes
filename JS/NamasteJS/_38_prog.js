@@ -42,7 +42,7 @@ function output5() {
     for(var i = 1;  i <= 5; i++) {
         function _closure(i) {
             setTimeout(() => {
-               // js preverse lexical environment for a and i
+               // js preverse lexical environment only for i
                console.log(i);
             }, i*1000);
         };

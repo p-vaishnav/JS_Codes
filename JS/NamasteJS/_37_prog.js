@@ -38,6 +38,17 @@ function printName() {
 
 const person = {name: 'vaishnav', last: 'pureddiwar'};
 
+// make add
+const makeAdd2 = (x) => {
+    return (y) => {
+        return x + y;
+    }
+}
+
+const add5v2 = makeAdd2(5); 
+console.log('-------------------------');
+console.log(add5v2(10));
+
 printName.call(person);
 
 // memory leak

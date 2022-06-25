@@ -10,7 +10,7 @@ new Promise(function(resolve, reject) {
     
     // resolve and reject are the call backs passed in our promise via js engine
 
-    // a promise generally reolves in these states pending | fulfiled | resolved
+    // a promise generally revolves in these states pending | fulfiled | resolved
 })
 
 */

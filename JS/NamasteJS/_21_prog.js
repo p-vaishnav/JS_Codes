@@ -1,6 +1,6 @@
 // How the class and constructor works?
 
-// class aree functions under the hood;
+// class are functions under the hood;
 
 // when checking CreateCustomer.prototype it returns {constructor: f, getBalance: f, increaseBalance: f};
 

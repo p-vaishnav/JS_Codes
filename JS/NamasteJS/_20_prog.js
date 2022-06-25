@@ -6,6 +6,7 @@
 
 // check why it was failing earlier
 
+// new is when used with a function, a empty this obj is created initialized with properties its __proto__ points to the functions prototype
 function createCustomer(name, branch, balance) {
     
     this.name = name;

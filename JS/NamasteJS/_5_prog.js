@@ -28,3 +28,4 @@ console.log(count1.state); // log's 0
 console.log(count2.state); // log's 10
 
 // Question, when using normal function I can update state (property) using 'this' but not able to do it via arrow function.
+// reason being 'this' key word is resolved lexically, and does n't depend on the caller of the function
