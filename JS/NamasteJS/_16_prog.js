@@ -22,4 +22,4 @@ console.log(myFunction.toString());
 console.log(myFunction.key);
 console.log(myFunction.hasOwnProperty('key'));
 
-// Object is a Function in JS
+// Function is a Object in JS

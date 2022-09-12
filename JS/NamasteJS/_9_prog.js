@@ -29,7 +29,7 @@ console.log(b1);
 
 // variable shadowing occurs when a variable declared inside block, function has a same name as of outside; so variable inside block, function will shadow the variable outside the scope
 
-// var are function scoped i.e will eb attached to global or local
+// var are function scoped i.e will be attached to global or local
 
 
 {

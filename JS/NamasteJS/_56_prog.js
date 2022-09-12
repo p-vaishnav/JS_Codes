@@ -7,7 +7,7 @@ function sum(a, b) {
 function curry(f) {
     return function(a) {
         return function(b) {
-            return a + b;
+            return f(a ,b);
         }
     }
 }

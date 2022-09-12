@@ -4,4 +4,4 @@
 
 // promises are eager;
 
-// they are in three state fullfiled, rejected, or pendind state
+// they are in three states fullfiled, rejected, or pending state
