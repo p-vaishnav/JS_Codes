@@ -1,4 +1,4 @@
-console.log("Success");
-setTimeout(() => console.log("Patience"), 0);
-Promise.resolve(() => console.log("Excellence")).then(res => res());
-console.log('A karma yogi');
+console.log("1");
+setTimeout(() => console.log("2"), 0);
+Promise.resolve(() => console.log("3")).then(res => res());
+console.log('4');
