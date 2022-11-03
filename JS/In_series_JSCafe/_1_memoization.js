@@ -1,5 +1,5 @@
 function memoize(fn) {
-    const cache = {}
+    const cache = {};
     // a closure is a function bundled with its lexical environment
     return (...args) => {
         const argsToString = JSON.stringify(args);
