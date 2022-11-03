@@ -16,15 +16,19 @@ fun().then((value) => console.log(value));
 function _await(wait) {
     return new Promise(function(resolve, reject) {
         setTimeout(() => {
-            resolve('excellence');
+            reject('excellence');
         }, wait);
     });
 }
 
 // testing await
 async function testingWait() {
-    const promise = await _await(5000);
-    console.log(promise);
+    try {
+        const promise = await _await(5000);
+        console.log(promise);
+    } catch (err) {
+        console.log('error', err);
+    }
 }
 
 testingWait();
